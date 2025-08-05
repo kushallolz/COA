@@ -18,8 +18,9 @@ int main() {
     printf("\n2's complement in binary: ");
     for(int i = 31; i >= 0; i--) {
         printf("%d", (twos_complement >> i) & 1);
-        if(i % 4 == 0) printf(" "); // Add space for readability
-    }
+        if(i % 4 == 0) printf(" "); //to display 
+{
     printf("\n");
     return 0;
 }
+
